@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+int fun(int n){
+	if(n%2==0)
+	return 1;
+	else
+	return 2;
+}
+int main(){
+	//Q#4
+	int n,x;
+	cin>>n;
+	x=fun(n);
+	if(x==1)
+	cout<<"Even";
+	else
+	cout<<"Odd";
+
+
+return 0;
+}
